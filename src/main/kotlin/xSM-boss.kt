@@ -1,3 +1,5 @@
 fun main() {
-    println("hello")
+    print("entre your name : ")
+    val name = readln() !! .toString()
+    print("welcome $name")
 }
